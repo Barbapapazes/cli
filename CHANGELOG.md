@@ -1,6 +1,35 @@
 # Changelog
 
 
+## v3.13.0
+
+[compare changes](https://github.com/nuxt/cli/compare/v3.12.0...v3.13.0)
+
+### 🚀 Enhancements
+
+- **build:** Warn if `--prerender` overrides `--preset` ([#392](https://github.com/nuxt/cli/pull/392))
+- **module:** Support other nuxt config extensions when adding ([#401](https://github.com/nuxt/cli/pull/401))
+- **module:** Install module peer dependencies ([#442](https://github.com/nuxt/cli/pull/442))
+
+### 🩹 Fixes
+
+- Allow configuring vite hmr protocol ([#436](https://github.com/nuxt/cli/pull/436))
+
+### 💅 Refactors
+
+- **module:** Use `c12` util to update config ([#441](https://github.com/nuxt/cli/pull/441))
+
+### 🏡 Chore
+
+- Remove `is-number` from bundled cli ([#439](https://github.com/nuxt/cli/pull/439))
+
+### ❤️ Contributors
+
+- Daniel Roe ([@danielroe](http://github.com/danielroe))
+- Meir Roth ([@meirroth](http://github.com/meirroth))
+- Cmd430 <cmd430@gmail.com>
+- OrbisK ([@OrbisK](http://github.com/OrbisK))
+
 ## v3.12.0
 
 [compare changes](https://github.com/nuxt/cli/compare/v3.11.1...v3.12.0)
