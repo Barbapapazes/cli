@@ -31,7 +31,7 @@
     "nuxi": "node ./bin/nuxi.mjs",
     "nuxi-bun": "bun --bun ./bin/nuxi.mjs",
     "prepack": "unbuild",
-    "release": "pnpm test && changelogen --release && npm publish && git push --follow-tags",
+    "release": "pnpm test && changelogen && npm publish --access public && git push --follow-tags",
     "test": "pnpm lint && pnpm test:types && pnpm build && pnpm test:dist",
     "test:dist": "node ./bin/nuxi.mjs info ./playground",
     "test:types": "tsc --noEmit"
@@ -91,7 +91,7 @@
   },
   "pnpm": {
     "overrides": {
-      "citty": "npm:@barbapapazes/citty"
+      "citty": "npm:@barbapapazes/citty@0.1.9"
     }
   }
 }
