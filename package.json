@@ -91,7 +91,7 @@
   },
   "pnpm": {
     "overrides": {
-      "citty": "npm:@barbapapazes/citty@0.1.9"
+      "citty": "npm:@barbapapazes/citty@0.1.10"
     }
   }
 }
